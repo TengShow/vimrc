@@ -8,6 +8,7 @@ set smarttab
 set expandtab
 set nobackup
 colorscheme desert "设置配色方案
+"git clone git@github.com:tomasr/molokai.git
 set ruler      "打开状态栏标尺
 set laststatus=2 "总是显示状态行
 syntax on "语法高亮
