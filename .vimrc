@@ -40,9 +40,7 @@ endfunc
 
 
 
-
-
-""""""""""""""""Vim plugin""""""""""""""""
+""""""""""""""""""""""""" Begin  VimPlug""""""""""""""""""""""""""""""""""
 
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 "    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -85,7 +83,58 @@ endfunc
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+Plug 'valloric/youcompleteme'
+Plug 'octol/vim-cpp-enhanced-highlight'
 
  " Initialize plugin system
  call plug#end()
+
+ """"""""""""""""""""""""""END VimPlug""""""""""""""""""""""""""""""""""
+
+
+
+
+ 
+ 
+ 
+ """"""""""""""""""""""""""" Begin Vundle """"""""""""""""""""""""""""""
+
+set nocompatible               "去除VIM一致性，必须"
+filetype off                   "必须"
+
+"设置包括vundle和初始化相关的运行时路径"
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+"
+""启用vundle管理插件，必须"
+Plugin 'VundleVim/Vundle.vim'
+
+"在此增加其他插件，安装的插件需要放在vundle#begin和vundle#end之间"
+""安装github上的插件格式为 Plugin '用户名/插件仓库名'"
+
+
+Plugin 'kien/rainbow_parentheses.vim'
+
+call vundle#end()              
+filetype plugin indent on      "加载vim自带和插件相应的语法和文件类型相关脚本，必须"
+
+
+ """"""""""""""""""""""""""END Vundle """"""""""""""""""""""""""""""""""
+
+
+
+
+
+
+
+ 
+ 
+ """""""""""""""""""""""""""""" Begin Pathogen """"""""""""""""""""""""
+ execute pathogen#infect()
+ syntax on
+ filetype plugin indent on
+
+
+
+
+ """"""""""""""""""""""""""END Pathogen """""""""""""""""""""""""""""""""
