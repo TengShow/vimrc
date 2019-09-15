@@ -83,8 +83,6 @@ endfunc
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plug 'valloric/youcompleteme'
-Plug 'octol/vim-cpp-enhanced-highlight'
 
  " Initialize plugin system
  call plug#end()
@@ -113,7 +111,6 @@ Plugin 'VundleVim/Vundle.vim'
 ""安装github上的插件格式为 Plugin '用户名/插件仓库名'"
 
 
-Plugin 'kien/rainbow_parentheses.vim'
 
 call vundle#end()              
 filetype plugin indent on      "加载vim自带和插件相应的语法和文件类型相关脚本，必须"
