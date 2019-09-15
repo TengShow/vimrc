@@ -65,12 +65,8 @@ filetype plugin indent on      "加载vim自带和插件相应的语法和文件
 
 
 """"""""""""""""""""""""" Begin  VimPlug""""""""""""""""""""""""""""""""""
-"   curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-"        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-"    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"""""""""""""""""""""""""""""""""""""""""""""
+"    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
  "Specify a directory for plugins
  " - For Neovim: ~/.local/share/nvim/plugged
