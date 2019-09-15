@@ -64,7 +64,7 @@ filetype plugin indent on      "加载vim自带和插件相应的语法和文件
 
 
 
-""""""""""""""""""""""""" Begin  VimPlug""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""" Begin  Vim-Plug""""""""""""""""""""""""""""""""""
 "    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 "       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -109,7 +109,7 @@ filetype plugin indent on      "加载vim自带和插件相应的语法和文件
  " Initialize plugin system
  call plug#end()
 
- """"""""""""""""""""""""""END VimPlug""""""""""""""""""""""""""""""""""
+ """"""""""""""""""""""""""END Vim-Plug""""""""""""""""""""""""""""""""""
 
  
  
