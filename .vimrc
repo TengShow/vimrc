@@ -38,6 +38,30 @@ func! Rungdb()
 endfunc
 
 
+ """"""""""""""""""""""""""" Begin Vundle """"""""""""""""""""""""""""""
+ "  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+set nocompatible               "去除VIM一致性，必须"
+filetype off                   "必须"
+
+"设置包括vundle和初始化相关的运行时路径"
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+"
+""启用vundle管理插件，必须"
+Plugin 'VundleVim/Vundle.vim'
+
+"在此增加其他插件，安装的插件需要放在vundle#begin和vundle#end之间"
+""安装github上的插件格式为 Plugin '用户名/插件仓库名'"
+
+
+
+call vundle#end()              
+filetype plugin indent on      "加载vim自带和插件相应的语法和文件类型相关脚本，必须"
+
+
+ """"""""""""""""""""""""""END Vundle """"""""""""""""""""""""""""""""""
+
 
 
 """"""""""""""""""""""""" Begin  VimPlug""""""""""""""""""""""""""""""""""
@@ -88,41 +112,6 @@ endfunc
  call plug#end()
 
  """"""""""""""""""""""""""END VimPlug""""""""""""""""""""""""""""""""""
-
-
-
-
- 
- 
- 
- """"""""""""""""""""""""""" Begin Vundle """"""""""""""""""""""""""""""
-
-set nocompatible               "去除VIM一致性，必须"
-filetype off                   "必须"
-
-"设置包括vundle和初始化相关的运行时路径"
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-"
-""启用vundle管理插件，必须"
-Plugin 'VundleVim/Vundle.vim'
-
-"在此增加其他插件，安装的插件需要放在vundle#begin和vundle#end之间"
-""安装github上的插件格式为 Plugin '用户名/插件仓库名'"
-
-
-
-call vundle#end()              
-filetype plugin indent on      "加载vim自带和插件相应的语法和文件类型相关脚本，必须"
-
-
- """"""""""""""""""""""""""END Vundle """"""""""""""""""""""""""""""""""
-
-
-
-
-
-
 
  
  
